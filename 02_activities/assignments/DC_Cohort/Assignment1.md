@@ -107,7 +107,7 @@ Please do not pick the exact same tables that I have already diagrammed. For exa
 - The column names can be found in a few spots (DB Schema window in the bottom right, the Database Structure tab in the main window by expanding each table entry, at the top of the Browse Data tab in the main window)
 
 **Entity-Relationship Diagram**:
-I have attached the a logical data model of `customer` and `customer_purchases` in assignment1_section1-1.png.
+I have attached the a logical data model of `customer` and `customer_purchases` in assignment1_section1.png.
 
 ***
 
