@@ -106,6 +106,10 @@ Please do not pick the exact same tables that I have already diagrammed. For exa
 	- <img src="./images/01_farmers_market_conceptual_model.png" width="600">
 - The column names can be found in a few spots (DB Schema window in the bottom right, the Database Structure tab in the main window by expanding each table entry, at the top of the Browse Data tab in the main window)
 
+**Entity-Relationship Diagram**: 
+
+I have attached the a logical data model for `customer` and `customer_purchases` in assignment1_section1.png.
+
 ***
 
 ## Section 2:
@@ -205,5 +209,13 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 
 ```
-Your thoughts...
+
+That's interesting to think about - how the way data is recorded in databases implicitly encodes value systems that can have unintended consequences. In my neuroscience research, two examples come to mind - sex/gender and psychiatric diagnoses.
+
+Many large-scale neuroimaging datasets embed social value systems by recording sex or gender as strictly male or female, with no recognition of nonbinary or intersex participants. This binary framing assumes biological differences are categorical, when in reality both gender identity and biological sex exist along a continuum. This not only limits inclusivity, since findings may not generalize to intersex or intergender individuals, but also reduces scientific accuracy. Sex and gender, even when recorded as binary dichotomies, have already been found to be important confounding factors in brain–behavior relationships. Better tracking of the sex and gender continuum has a high likelihood of improving our ability to model the relationship between neurobiology and cognition.
+
+Similarly, psychiatric databases often rely on diagnostic categories such as those in the Diagnostic and Statistical Manual of Mental Disorders (DSM), which are shaped more by historical and cultural norms than by neurobiological reality. Labels like 'depression' or 'schizophrenia' can oversimplify complex, overlapping conditions - for example, ADHD and autism tend to be highly comorbid. The emerging field of transdiagnostic psychiatry, which my lab works in, aims to move beyond these rigid categories and generate more accurate neurobiologically-informed categorizations to develop precise and effective treatments.
+
+In both cases, when databases rely on constructed categories from outdated social value systems, they embed bias - this produces a skewed view of reality which ultimately hampers scientific progress.
+
 ```
