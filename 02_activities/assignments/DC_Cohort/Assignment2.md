@@ -45,8 +45,20 @@ There are several tools online you can use, I'd recommend [Draw.io](https://www.
 
 **HINT:** You do not need to create any data for this prompt. This is a conceptual model only. 
 
+```
+
+assignment2_section1_prompt1.png
+
+```
+
 #### Prompt 2
 We want to create employee shifts, splitting up the day into morning and evening. Add this to the ERD.
+
+```
+
+assignment2_section1_prompt2.png
+
+```
 
 #### Prompt 3
 The store wants to keep customer addresses. Propose two architectures for the CUSTOMER_ADDRESS table, one that will retain changes, and another that will overwrite. Which is type 1, which is type 2? 
@@ -54,7 +66,9 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+
+A possible architecture for the CUSTOMER_ADDRESS table is one that retains changes, where a new row is added for each new address that the customer tells us while the existing addresses are maintained for historical purposes – this is an example of a Type 2 Slowly Changing Dimension architecture. Another possible architecture is one that overwrites the existing address with the newest one, with existing addresses not retained – this is an example of a Type 1 Slowly Changing Dimension architecture. 
+
 ```
 
 ***
@@ -183,5 +197,7 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+
+This is fascinating - the idea that artificial intelligence, which intuitively appears to function autonomously, is in fact built on a foundation of hidden human labor, particularly in the creation of labeled datasets, and raises complex ethical questions about exploitation, attribution, and bias is not something I’ve really thought about. For example, ImageNet, an extremely famous image recognition dataset which even I have learned about previously (even though I’m in neuroscience), was constructed through the work of thousands of individuals paid minimally via platforms like Amazon Mechanical Turk, performing repetitive and painstaking labeling. Similarly, linguistic datasets like WordNet and the Brown Corpus were compiled over decades by free academic labor (e.g., graduate students like us), relying on enormous human effort to classify words and linguistic patterns. Yet the ways in which these datasets are produced, curated, and trained are often opaque, making it difficult to assess how much human contribution occurred, how their work was used, or how the inherent human decisions embedded in the datasets might affect later applications. Furthermore, the human origin of these datasets inevitably introduces bias, such as in a case where artificial intelligence classified individuals with derogatory or inaccurate labels. Fair compensation and attribution of human labor, as well as recognition of the potential for embedded bias is especially important for those of us working with large datasets, because it reminds us that that every model carries human decisions and limitations. As a student navigating the use of increasingly relevant artificial intelligence models for research, I aim to keep this awareness in mind, ensuring that I approach artificial intelligence applications with critical reflection and ethical consideration for the underlying human labor.
+
 ```
